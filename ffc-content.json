@@ -1,0 +1,30 @@
+{
+  "domain": "eastridgepto.org",
+  "charityName": "Eastridge Elementary School Parent-Teacher Organization",
+  "websiteSituation": "New charity domain name and new charity website",
+  "currentWebsiteUrl": "",
+  "domainRegistrar": "No domain yet",
+  "requesterGitHubUsername": "clarkemoyer",
+  "technicalPocGitHubUsername": "EastridgePTO",
+  "cloudflareZoneControlled": false,
+  "footer": {
+    "email": "",
+    "phone": "",
+    "address": "6245 L St, Lincoln, NE 68510-2354",
+    "ein": "47-0782464",
+    "irsStatus": "501(c)(3) (approved)",
+    "guideStarProfileUrl": "https://app.candid.org/profile/7695273/eastridge-elementary-school-parent-teacher-organization-47-0782464",
+    "guideStarDirectProfileUrl": "https://www.guidestar.org/profile/47-0782464",
+    "socialLinks": [
+      "Facebook: https://www.facebook.com/EastridgePTO",
+      "LinkedIn: https://www.linkedin.com/company/eastridgepto/"
+    ],
+    "mission": "The Eastridge PTO supports and enhances the educational experiences of the Eastridge Elementary School community.",
+    "donationUrl": "",
+    "volunteerUrl": ""
+  },
+  "leadership": [],
+  "generatedUtc": "2026-11-12T22:38:05.9378011Z",
+  "pendingFields": ["email", "donationUrl", "volunteerUrl", "phone", "team"],
+  "pendingRendered": true
+}

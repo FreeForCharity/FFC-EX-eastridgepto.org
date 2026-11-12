@@ -194,61 +194,49 @@ export type SiteConfig = {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Free For Charity',
-  tagline: 'Reduce Costs, Increase Impact',
+  name: 'Eastridge Elementary School Parent-Teacher Organization',
+  tagline: 'Nonprofit Organization',
   mission:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+    'The Eastridge PTO supports and enhances the educational experiences of the Eastridge Elementary School community.',
   // Empty = the footer's Donate / Volunteer links email contactEmail instead.
   donationUrl: '',
   volunteerUrl: '',
   description:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues—putting more resources back into their missions.',
+    'The Eastridge PTO supports and enhances the educational experiences of the Eastridge Elementary School community.',
   shortDescription:
-    'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+    'The Eastridge PTO supports and enhances the educational experiences of the Eastridge Elementary School community.',
   url: 'https://ffcworkingsite1.org',
-  twitterHandle: '@freeforcharity',
-  contactEmail: 'clarkemoyer@freeforcharity.org',
+  twitterHandle: '',
+  contactEmail: '',
   keywords: [
     'nonprofit',
     'charity',
-    'volunteer',
     'donate',
-    'free hosting',
-    'domains',
-    'Microsoft 365',
+    'volunteer',
+    'Eastridge Elementary School Parent-Teacher Organization',
   ],
   themeColor: '#ffffff',
   vulnerabilityDisclosurePath: '/vulnerability-disclosure-policy',
   social: [
-    { label: 'Facebook', href: 'https://www.facebook.com/freeforcharity' },
-    { label: 'X (Twitter)', href: 'https://x.com/freeforcharity1' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/freeforcharity/' },
-    // Repo name uses underscores — the hyphenated variant 404s.
-    { label: 'GitHub', href: 'https://github.com/FreeForCharity/FFC-IN-Footer_Only_Template' },
+    { label: 'Facebook', href: 'https://www.facebook.com/EastridgePTO' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/eastridgepto/' },
   ],
-  ein: '46-2471893',
-  phone: { display: '(520) 222-8104', tel: '5202228104' },
+  ein: '47-0782464',
+  phone: { display: '', tel: '' },
   addresses: [
     {
       label: 'Main Address',
-      lines: ['4030 Wake Forrest Road', 'Suite 349 Raleigh North', 'Carolina 27609'],
+      lines: ['6245 L St, Lincoln, NE 68510-2354'],
       mapUrl:
-        'https://www.google.com/maps/search/?api=1&query=4030+Wake+Forrest+Road+Suite+349+Raleigh+NC+27609',
-    },
-    {
-      label: 'PA Office Address',
-      lines: ['301 Science Park Road Suite', '119 State College PA 16803'],
-      mapUrl:
-        'https://www.google.com/maps/place/Free+For+Charity/@40.7768455,-77.8963305,17z/data=!3m1!4b1!4m6!3m5!1s0x89cea944b44a2e01:0x6fc2d6bf09e00a0f!8m2!3d40.7768415!4d-77.8937556!16s%2Fg%2F11vzvbl2d7?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D',
+        'https://www.google.com/maps/search/?api=1&query=6245%20L%20St%2C%20Lincoln%2C%20NE%2068510-2354',
     },
   ],
   taxStatusLabel: 'a US 501c3 Non Profit',
   guidestar: {
-    sealUrl: 'https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/9326392/svg',
+    sealUrl: '',
     profileUrl:
-      'https://app.candid.org/profile/9326392/free-for-charity-46-2471893/?pkId=7232730a-03b5-467f-a82c-443dcd2122ed',
-    directProfileUrl:
-      'https://app.candid.org/profile/9326392/free-for-charity/?pkId=7232730a-03b5-467f-a82c-443dcd2122ed&isActive=true',
+      'https://app.candid.org/profile/7695273/eastridge-elementary-school-parent-teacher-organization-47-0782464',
+    directProfileUrl: 'https://www.guidestar.org/profile/47-0782464',
   },
   supportedBy: {
     name: 'Free For Charity',
@@ -258,6 +246,10 @@ export const siteConfig: SiteConfig = {
   // parentOrg is intentionally unset: this template is for standalone
   // charities by default. Set it only for a genuine "a project of"
   // fiscal-sponsorship relationship.
+
+  // Footer-standard fields still awaiting the charity; each renders a visible
+  // 'awaiting information' placeholder until it is filled in.
+  pending: ['email', 'donationUrl', 'volunteerUrl', 'phone', 'team'],
 }
 
 function configuredBasePath(): string {
